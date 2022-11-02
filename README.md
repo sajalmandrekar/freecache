@@ -8,25 +8,32 @@
 
 -   Download the source code and open it
 
--   Copy the `freecache` file and paste it in `/usr/bin`
+-   Copy the `freecache` file and paste it in `/usr/bin/`
     ```sh
     sudo cp ./freecache /usr/bin/freecache
     ```
 
-    OR
+    **OR**
 
 -   [Add the location of `freecache` script to your `PATH`](#adding-script-to-path)
 
--   run `freecache` on your terminal
+-   on the terminal enter `freecache`
 
 ## Adding script to PATH
 
 -   **Debian based systems:**
-&emsp;open `.bashrc` file (located in `/home/user/`) using any text editor
-&emsp;append the following lines to the file
-&emsp;
-```bash
-export $PATH="/PATH/TO/THE/FILE_DIRECTORY:$PATH"
-```
-&emsp;save the file
-&emsp;open terminal and run `source ~/.bashrc`
+
+    -   open `.bashrc` file (located in `/home/user/`) using any text editor
+
+    -   append the following lines to the file
+        ```bash
+        export $PATH="/PATH/TO/THE/FILE_DIRECTORY:$PATH"
+        ```
+
+    -   save the file
+
+    -   open terminal and run `source ~/.bashrc`
+
+## Contributions
+
+-   Thank you, for taking your time to view this project, any person is free to contribute by creating an issue or making a pull request
